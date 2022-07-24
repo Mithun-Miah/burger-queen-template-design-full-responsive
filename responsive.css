@@ -1,0 +1,484 @@
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Apply styles starting from medium devices*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header css start */
+    .logo {
+        width: 200px;
+    }
+    .hero-left {
+        text-align: center;
+    }
+    .hero-left p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    .hero-left h1 {
+        font-size: 74px;
+        text-align: left;
+    }
+    .hero-left h6 {
+        font-size: 46px;
+        text-align: left;
+    }
+    .hero-right {
+        text-align: center;
+    }
+    /* header css end */
+    /* popular food section start */
+    .pfLeftImage p {
+        font-size: 21px;
+    }
+    .pfLeftImage h4 {
+        font-size: 35px;
+    }
+    .topImage p {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .topImage h4 {
+        font-size: 35px;
+    }
+    .bottomImage p {
+        font-size: 21px;
+    }
+    .bottomImage h4 {
+        font-size: 35px;
+    }
+    /* popular food section end */
+    /* choos & enjoy section start */
+    .ceTop h6 {
+        width: 300px !important;
+        padding: 10px !important;
+        font-size: 22px;
+    }
+    .card {
+        margin: auto;
+    }
+    .ceTop h1 {
+        font-size: 40px;
+    }
+    .card-body h5 {
+        font-size: 30px;
+    }
+    .card-body button {
+        width: 180px;
+        height: 55px;
+    }
+    /* choos & enjoy section end */
+    /* owl caroule section start */
+    .owl-caro-card {
+        height: 400px;
+    }
+    .owl-caro-card img {
+        height: 300px;
+    }
+    .cardBodyText p:first-child {
+        font-size: 16px;
+    }
+    .cardBodyText h1 {
+        font-size: 25px;
+    }
+    .cardBodyText p:last-child {
+        font-size: 16px;
+    }
+    /* owl caroule section end */
+    /* book table section start */
+    .reservation input {
+        height: 40px;
+    }
+    .plateImg {
+        margin-top: 140px;
+    }
+    .bottolImg {
+        margin-top: 50px !important;
+        margin-left: 60px !important;
+        height: 230px;
+        padding-bottom: 25px !important;
+    }
+    .resP {
+        font-size: 25px;
+    }
+    .btT {
+        font-size: 40px;
+    }
+    /* book table section end */
+}
+
+
+/* Apply styles starting from small devices */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header css start */
+    .logoDiv {
+        text-align: center;
+    }
+    .express-delivary {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .hero-left {
+        text-align: center;
+    }
+    .hero-left p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .hero-left h1 {
+        font-size: 56px;
+        text-align: center;
+    }
+    .hero-left h6 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hero-right img {
+        width: 300px;
+    }
+    /* header css end */
+    /* popular food section start */
+    .tryFood {
+        margin-bottom: -80px !important;
+    }
+    .pfLeftImage {
+        height: 300px;
+    }
+    .pfRightSide .topImage {
+        height: 145px;
+    }
+    .pfRightSide .bottomImage {
+        height: 145px;
+    }
+    .pfLeftImage p {
+        font-size: 21px;
+    }
+    .pfLeftImage h4 {
+        font-size: 30px;
+    }
+    .topImage p {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .topImage h4 {
+        font-size: 30px;
+    }
+    .bottomImage p {
+        font-size: 21px;
+    }
+    .bottomImage h4 {
+        font-size: 30px;
+    }
+    /* popular food section end */
+    /* choos & enjoy section start */
+    .cecImg {
+        width: 170px;
+        margin: 0px auto;
+    }
+    .ceTop h6 {
+        width: 250px !important;
+        padding: 10px !important;
+        font-size: 20px;
+    }
+    .card {
+        margin: auto;
+    }
+    .ceTop h1 {
+        font-size: 30px;
+    }
+    .ceTop p {
+        font-size: 14px;
+    }
+    .card-body h5 {
+        font-size: 28px;
+    }
+    .card-body button {
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    /* choos & enjoy section end */
+    /* owl caroule section start */
+    .owl-caro-card {
+        height: 350px;
+    }
+    .owl-caro-card img {
+        height: 250px;
+    }
+    .cardBodyText p:first-child {
+        font-size: 20px;
+    }
+    .cardBodyText h1 {
+        font-size: 20px;
+    }
+    .cardBodyText p:last-child {
+        font-size: 14px;
+    }
+    /* owl caroule section end */
+    /* book table section start */
+    .reservation input {
+        height: 35px;
+    }
+    .plateImg {
+        margin-top: 120px;
+    }
+    .bottolImg {
+        margin-top: 80px !important;
+        margin-left: 40px !important;
+        height: 150px;
+        width: 30px;
+        padding-bottom: 0px !important;
+    }
+    .resP {
+        font-size: 25px;
+    }
+    .btT {
+        font-size: 28px;
+    }
+    /* book table section end */
+    /* footer section start */
+    .footLeft {
+        text-align: center;
+    }
+    .footLogo {
+        width: 230px !important;
+    }
+    .footLeft p {
+        font-size: 14px;
+    }
+    .locEmail {
+        margin-top: 20px !important;
+        text-align: center;
+    }
+    .location img {
+        width: 18px;
+    }
+    .location span {
+        font-size: 14px;
+    }
+    .email img {
+        width: 18px;
+    }
+    .email span {
+        font-size: 14px;
+    }
+    .copyRtxt {
+        font-size: 14px;
+    }
+    .socialIcons {
+        text-align: center !important;
+        padding: 10px 0px;
+    }
+    .socialIcons a {
+        margin-right: 10px;
+    }
+    .copyRightText {
+        text-align: center;
+        padding: 10px 0px;
+    }
+    /* footer section end */
+}
+
+
+/* Apply styles starting from extra small devices */
+
+@media (min-width: 100px) and (max-width: 575.98px) {
+    /* header css start */
+    .logoDiv {
+        text-align: center;
+    }
+    .express-delivary {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .hero-left {
+        text-align: center;
+    }
+    .hero-left p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .hero-left h1 {
+        font-size: 56px;
+        text-align: center;
+    }
+    .hero-left h6 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hero-right img {
+        width: 300px;
+    }
+    /* header css end */
+    /* popular food section start */
+    .tryFood {
+        margin-bottom: -80px !important;
+    }
+    .pfLeftImage {
+        height: 300px;
+    }
+    .pfRightSide .topImage {
+        height: 145px;
+    }
+    .pfRightSide .bottomImage {
+        height: 145px;
+    }
+    .pfLeftImage p {
+        font-size: 21px;
+    }
+    .pfLeftImage h4 {
+        font-size: 30px;
+    }
+    .topImage p {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    .topImage h4 {
+        font-size: 30px;
+    }
+    .bottomImage p {
+        font-size: 21px;
+    }
+    .bottomImage h4 {
+        font-size: 30px;
+    }
+    /* popular food section end */
+    /* choos & enjoy section start */
+    .cecImg {
+        width: 170px;
+        margin: 0px auto;
+    }
+    .ceTop h6 {
+        width: 250px !important;
+        padding: 10px !important;
+        font-size: 20px;
+    }
+    .card {
+        margin: auto;
+    }
+    .ceTop h1 {
+        font-size: 30px;
+    }
+    .ceTop p {
+        font-size: 14px;
+    }
+    .card-body h5 {
+        font-size: 28px;
+    }
+    .card-body button {
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    /* choos & enjoy section end */
+    /* owl caroule section start */
+    .owl-caro-card {
+        height: 480px;
+    }
+    .owl-caro-card img {
+        height: 150px;
+        margin-top: -50px;
+    }
+    .cardBodyText p:first-child {
+        font-size: 20px;
+        text-align: center;
+    }
+    .cardBodyText h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .cardBodyText p:last-child {
+        font-size: 14px;
+    }
+    /* owl caroule section end */
+    /* book table section start */
+    #reserBox {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+    #twoImgLeft {
+        width: 20%;
+    }
+    #resForm {
+        width: 60%;
+    }
+    #oneImgRight {
+        width: 15%;
+    }
+    .reservation input {
+        height: 35px;
+    }
+    .burgerBtImg {
+        width: 100px;
+    }
+    .plateImg {
+        width: 100px;
+    }
+    .bottolImg {
+        margin-top: 50px !important;
+        margin-left: 20px !important;
+        height: 150px;
+        width: 30px;
+        padding-bottom: 0px !important;
+    }
+    .resP {
+        font-size: 25px;
+    }
+    .btT {
+        font-size: 28px;
+    }
+    /* book table section end */
+    /* footer section start */
+    .footLeft {
+        text-align: center;
+    }
+    .footLogo {
+        width: 230px !important;
+    }
+    .footLeft p {
+        font-size: 14px;
+    }
+    .locEmail {
+        margin-top: 20px !important;
+        text-align: center;
+    }
+    .location img {
+        width: 18px;
+    }
+    .location span {
+        font-size: 14px;
+    }
+    .email img {
+        width: 18px;
+    }
+    .email span {
+        font-size: 14px;
+    }
+    .copyRtxt {
+        font-size: 14px;
+    }
+    .socialIcons {
+        text-align: center !important;
+        padding: 10px 0px;
+    }
+    .socialIcons a {
+        margin-right: 10px;
+    }
+    .copyRightText {
+        text-align: center;
+        padding: 10px 0px;
+    }
+    /* footer section end */
+}

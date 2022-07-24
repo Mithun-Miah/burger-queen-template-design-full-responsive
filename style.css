@@ -1,0 +1,381 @@
+/*common fonts*/
+
+@font-face {
+    font-family: "ar";
+    src: url(assets/fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "br";
+    src: url(assets/fonts/BebasNeueRegular.otf);
+}
+
+@font-face {
+    font-family: "mb";
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "mr";
+    src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+
+/* General css */
+
+body {
+    font-family: "ar";
+    font-family: "br";
+    font-family: "mb";
+    font-family: "mr";
+}
+
+
+/* header css start */
+
+header {
+    background: url(assets/images/Header-Images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 35px 35px 60px 35px;
+}
+
+.express-delivary {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.express-delivary img {
+    width: 35px;
+    height: 35px;
+}
+
+.express-delivary p {
+    margin-left: 10px;
+    margin-top: 6px;
+    line-height: 2;
+    font-family: 'mb';
+    font-size: 14px;
+    color: #3d2514;
+}
+
+
+/* #menuList li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px !important;
+}
+.fa-burger{
+    display: none !important;
+} */
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu nav ul a {
+    text-decoration: none;
+    font-family: 'br';
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d2514;
+    margin-left: 5px;
+}
+
+
+/* Hero Section css start */
+
+.hero-left p {
+    font-size: 22px;
+    font-family: 'br';
+    padding: 10px;
+    color: #3d2514;
+    border: 2px dashed #3d2514;
+    width: 70%;
+}
+
+.hero-left h1 {
+    font-size: 104px;
+    font-family: 'ar';
+    text-shadow: 0px 3px 5px #fff;
+    color: #3d2514;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-left h6 {
+    font-family: 'ar';
+    font-size: 56px;
+    text-shadow: 0px 3px 5px #fff;
+    color: #3d2514;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Hero Section css end */
+
+
+/* header css end */
+
+
+/* popular food section start */
+
+.pfLeftImage {
+    background: url(assets/images/Content-Images/leftPic.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.pfLeftImage p {
+    color: #fff;
+    margin: 0px;
+    font-family: 'br';
+    font-size: 25px;
+}
+
+.pfLeftImage h4 {
+    color: #fff;
+    font-family: 'br';
+    font-size: 41px;
+}
+
+.pfRightSide {
+    height: 400px;
+}
+
+.pfRightSide .topImage {
+    background: url(assets/images/Content-Images/rightPic-Top.png);
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.topImage p {
+    color: #fff;
+    font-family: 'br';
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.topImage h4 {
+    color: #fff;
+    font-family: 'br';
+    font-size: 41px;
+}
+
+.pfRightSide .bottomImage {
+    background: url(assets/images/Content-Images/rightPic-Down.png);
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.bottomImage p {
+    color: #fff;
+    font-family: 'br';
+    font-size: 25px;
+    margin: 0px;
+}
+
+.bottomImage h4 {
+    color: #fff;
+    font-family: 'br';
+    font-size: 41px;
+}
+
+
+/* popular food section end */
+
+
+/* choos & enjoy section start */
+
+.ceTop h6 {
+    color: #3d2514;
+    font-size: 25px;
+    font-family: 'br';
+    background-color: #ffc045;
+    width: 220px;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ceTop h1 {
+    color: #3d2514;
+    font-family: 'ar';
+    font-size: 50px;
+}
+
+.ceTop p {
+    color: #3d2514;
+    font-family: 'mr';
+}
+
+.card-body h5 {
+    color: #3d2514;
+    font-family: 'br';
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #3d2514;
+    font-family: 'mr';
+}
+
+.card-body button {
+    color: #3d2514;
+    font-family: 'ar';
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #bf2222;
+    color: #fff;
+}
+
+
+/* choos & enjoy section end */
+
+
+/* owl caroule section start */
+
+.owl-caro-card {
+    height: 500px;
+}
+
+.owl-caro-card img {
+    height: 400px;
+}
+
+.cardBodyText p:first-child {
+    font-family: 'br';
+    font-size: 29px;
+    color: #3d2514;
+}
+
+.cardBodyText h1 {
+    font-family: 'ar';
+    font-size: 41px;
+    color: #3d2514;
+}
+
+.cardBodyText p:last-child {
+    font-family: 'mr';
+    font-size: 20px;
+    color: #3d2514;
+}
+
+.carousel .owl-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.carousel .owl-dots button.active {
+    background: #ffc045;
+    border-radius: 50%;
+}
+
+
+/* owl caroule section end */
+
+
+/* book table section start */
+
+.reservation input {
+    height: 60px;
+}
+
+.plateImg {
+    margin-top: 160px;
+}
+
+.bottolImg {
+    margin-top: 50px !important;
+    margin-left: 70px !important;
+    height: 250px;
+    padding-bottom: 30px !important;
+}
+
+.resP {
+    color: #3d2514;
+    font-family: 'br';
+    font-size: 29px;
+}
+
+.btT {
+    color: #3d2514;
+    font-family: 'ar';
+    font-size: 50px;
+}
+
+
+/* book table section end */
+
+
+/* footer section start */
+
+.footer {
+    background: url(assets/images/footerImages/footer-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.footLeft p {
+    font-size: 14px;
+}
+
+.locEmail {
+    /* padding-top: 80px !important; */
+    margin-top: 120px !important;
+}
+
+.location img {
+    width: 22px;
+}
+
+.location span {
+    font-size: 14px;
+}
+
+.email img {
+    width: 22px;
+}
+
+.email span {
+    font-size: 14px;
+}
+
+.copyRtxt {
+    font-size: 14px;
+}
+
+.socialIcons a {
+    margin-right: 10px;
+}
+
+
+/* footer section end */
